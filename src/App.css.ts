@@ -1,20 +1,19 @@
 import { createGlobalTheme, style } from "@vanilla-extract/css";
 
-
-createGlobalTheme(":root",{
+export const vars = createGlobalTheme(":root", {
     color: {
         main: "#ffa726",
         mainDarker: "#f57c00",
         mainFaded: "#ffb74d",
         mainFadedBright: "#ffb74da6",
-        list: "rgb(235.236,240",
-        task: "rgb(255,255,255",
-        taskHover: "rgb(245,245,245",
+        list: "rgb(235, 236, 240)",
+        task: "rgb(255,255,255)",
+        taskHover: "rgb(245,245,245)",
         brightText: "rgb(255,255,255)",
         darkText: "rgb(24,42,77)",
         secondaryDarkText: "rgb(94,108,132)",
-        secondaryDarkTextHover: "rgb(218,219,266",
-        selectedTab: "rgb(137176,174)",
+        secondaryDarkTextHover: "rgb(218,219,226)",
+        selectedTab: "rgb(137,176,174)",
         updateButton: "rgb(237,180,88)",
         deleteButton: "rgb(237,51,88)",
     },
@@ -39,8 +38,8 @@ createGlobalTheme(":root",{
         basic: "4px 4px 8px 0px rgba(34, 60, 80,0.2)"
     },
     midWidth: {
-        list: '250px'
-    }
+        list: "250px",
+    },
 });
 
 export const appContainer = style({

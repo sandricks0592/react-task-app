@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { reducer } from "./reducer/reducer"; // reducer 객체를 가져옵니다.
+import reducer from "./reducer/reducer"; // reducer 객체를 가져옵니다.
 
 // 1. 스토어 생성
 const store = configureStore({
